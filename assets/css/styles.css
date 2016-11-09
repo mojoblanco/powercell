@@ -1,0 +1,61 @@
+
+
+#navigation{
+	font-size: 1.16rem;
+	line-height: 1.16rem;
+	background-color: #234393;
+	border: none;
+	border-radius: 0;
+	margin: 0;
+}
+
+#navigation .navbar-nav > li{
+	border-left: 0.0555555556rem solid #2F3F69
+}
+
+#navigation .navbar-nav > li:last-child{
+	border-right: 0.0555555556rem solid #2F3F69
+}
+
+#navigation a{
+	color: #fff;
+	font-size: 1.6rem;
+	line-height:3.5rem;
+}
+
+#carousel-example .carousel-inner>.item>a>img,#carousel-example .carousel-inner> div {
+    width: 100%;
+    height: 48rem;
+}
+
+
+@media screen and (min-width: 681px) {
+    .home-about .photo-headline {
+		background: -webkit-linear-gradient(transparent, transparent),url(https://www.kiva.org/cms/page/images/start-lg-std.jpg);
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.huge {
+		font-size: 4.5rem;
+		line-height: 5rem;
+		letter-spacing: -0.2222222222rem;
+	}
+}
+
+.photo-headline {
+    margin-top: 2rem;
+    padding: 0 2rem;
+    color: #333;
+    background: -o-linear-gradient(transparent, transparent);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
