@@ -4,22 +4,62 @@ html, body{
 
 body{
 	background: #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+h1,h2,h3,
+h4,h5,h6{
+    color: #000;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+
+h3{
+    font-size: 2em;
+}
+
+
+h4{
+    font-size: 1.5em;
+}
+
+a{
+    color: #ccc;
 }
 
 ul, ol{
 	padding: 0;
+    margin: 0;
 	list-style: none;
 }
 
+
+
+
+/**** Navigation ****/
 .wrapper{
 	background: #fff;
 }
+
+.wrapper section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/**********************/
 
 
 /**** Navigation ****/
 .navbar{
 	border-radius: 0;
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .navbar-default{
@@ -27,6 +67,212 @@ ul, ol{
 	border: 0;
 }
 
+.navbar-default .navbar-nav{
+    padding-top: 0.5em;
+}
+
 .navbar-default .navbar-nav>li>a {
+    font-size: 0.8em;
     text-transform: uppercase;
 }
+
+.navbar-brand img{
+    height: 30px;
+}
+/**********************/
+
+
+
+/**** Jumbotron ****/
+#home-jumbo{
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color: #333;
+    background-image: url('../img/smile_bg.jpg');
+    background-size: cover;
+    background-position: right center
+}
+
+#home-jumbo h2{
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+#home-jumbo a{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+#home-jumbo a img{
+    height: 35px;
+}
+
+
+.btn-img {
+    border-width: 2px;
+    border-color: #fff;
+}
+
+@media (min-width:64.063em) { 
+    #home-jumbo{
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+}
+/**********************/
+
+
+
+/**** Featured ****/
+#featured{
+    background-color: #F0EEEE;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#featured p{
+    margin-bottom: 6em;
+}
+/**********************/
+
+
+
+/**** Home Products ****/
+.filter-box{
+    text-transform: uppercase;
+    padding-left: 20px;
+    min-height: 30px;
+}
+
+.filter-box ul.filter li{
+    display: inline;
+    font-size: 1.5em;
+}
+
+.filter-box ul.filter li a{
+    text-transform: uppercase;
+    padding: 0 10px;
+    color: #ccc;
+}
+
+.filter-box ul.filter li:first-child a{
+    border-right: 1px solid #ccc;
+    color: #333;
+}
+
+.filter-box ul.filter li a:hover{
+    text-decoration: none;
+}
+
+.filter-box a.btn{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.products{
+    margin-top: 30px;
+}
+
+.products a.btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    background: linear-gradient(#00AFF0, #004D6A);
+    color: #fff;
+}
+/**********************/
+
+
+/**** Projects ****/
+#home-projects{
+    background-color: #F0EEEE;
+}
+
+#home-projects .bd-r{
+    border-right: 1px solid #ccc;
+}
+
+.projects{
+    margin-top: 30px;
+}
+
+.project-box{
+    margin: 0 auto;
+    width: 80%;
+    background-color: #fff;
+}
+
+.project-box p{
+    padding: 30px;
+    font-weight: bold;
+}
+/**********************/
+
+
+/**** Footer ****/
+#footer{
+    padding: 60px 20px 40px 20px;
+}
+
+#footer .widget .logo{
+    height: 40px;
+    margin-bottom: 0.5em;
+}
+
+#footer .widget p{
+    max-width: 14em;
+    text-align: justify;
+}
+
+.widget ul.social-icons li{
+    display: inline;
+    margin-right: 4px;
+}
+
+.widget ul.social-icons a i{
+    display: inline;
+    padding: 8px;
+    text-align: center;
+    border-radius: 100%;
+    box-shadow: 0px 0px 2px #888;
+}
+
+.widget ul.social-icons a i.fa-facebook{
+    color: #3b5998;    
+    box-shadow: 0px 0px 2px #3b5998;
+}
+
+.widget ul.social-icons a i.fa-twitter{
+    color: #1da1f2;    
+    box-shadow: 0px 0px 2px #1da1f2;
+}
+
+.widget ul.social-icons a i.fa-skype{
+    color: #0773A6;    
+    box-shadow: 0px 0px 2px #0773A6;
+}
+
+.widget ul.social-icons a i.fa-rss{
+    color: #ff0000;    
+    box-shadow: 0px 0px 2px #ff0000;
+}
+
+.widget ul.social-icons a i.fa-linkedin{
+    color: #287bbc;    
+    box-shadow: 0px 0px 2px #287bbc;
+}
+
+#footer .widget .partner{
+    margin-top: 1.5em;
+}
+/****************/
+
+
+
+
+
+/**** Custom Styles ****/
+.btn-tr{
+    background-color: transparent;
+    border-radius: 40px; 
+}
+    
