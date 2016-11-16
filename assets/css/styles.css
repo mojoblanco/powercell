@@ -49,10 +49,7 @@ ul, ol{
 	background: #fff;
 }
 
-.wrapper section{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+
 /**********************/
 
 
@@ -274,5 +271,10 @@ ul, ol{
 .btn-tr{
     background-color: transparent;
     border-radius: 40px; 
+}
+
+.section-1{
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
     
